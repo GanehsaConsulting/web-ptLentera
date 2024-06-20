@@ -35,10 +35,10 @@ export const Navbar = () => {
     }, [prevScrollPos, visible, handleScroll]);
     return (
         <>
-            <div className="">
+            <div className="flex justify-center">
                 <div
                     className=
-                    {` navbar bg-base-100 fixed bg-opacity-30 z-[100] backdrop-blur-xl m-2 !w-[99%] rounded-2xl px-5 
+                    {` navbar bg-base-100 fixed bg-opacity-30 z-[100] backdrop-blur-xl m-2 !w-[96%] rounded-2xl px-5 
             ${isScrolled ? "bg-[#ffffffad] blurry !text-gray-800 duration-300 shadow-mainShadow" : "!bg-transparent text-white"}
             `}
                 >
@@ -49,8 +49,9 @@ export const Navbar = () => {
                             </div>
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                                 {NAVBARLINK.map((n, id) => (
-                                    <li>
+                                    <li key={id}>
                                         <Link
+                                            className="!text-gray-800"
                                             href={n.href}
                                         >
                                             {n.label}
