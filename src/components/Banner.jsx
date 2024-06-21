@@ -3,7 +3,7 @@ import { FiArrowDown } from "react-icons/fi";
 export const Banner = () => {
     return (
         <>
-        <div id="home"/>
+            <div id="home" />
             <section className="relative">
                 <img
                     className="h-screen w-full object-cover"
@@ -15,7 +15,7 @@ export const Banner = () => {
                         Your <span className="text-violet-300">Trusted</span> Partner <br /> for <span className="text-red-300">Pipeline Needs</span>
                     </h1>
                     <h2 className="text-center md:w-[50%] text-opacity-80 text-white">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non inventore libero sed eligendi excepturi, recusandae odit tempore itaque dolores eos accusantium nemo molestiae perferendis iusto aliquam porro odio. Quod, dicta.
+                        At PT. Lentera Berkat Wisesa, we are dedicated to delivering high-quality products with exceptional customer service. With in-depth knowledge and experience across various industries, we are ready to provide solutions tailored to the specific needs of our customers.
                     </h2>
                     <a
                         className="-mt-2 px-4 py-1 backdrop-blur-lg rounded-full bg-white bg-opacity-25 font-bold duration-300 hover:bg-red-200 hover:text-gray-800"
@@ -23,7 +23,7 @@ export const Banner = () => {
                     >
                         Explore
                     </a>
-                    <FiArrowDown className="-mt-3 text-xl animate-bounce text-opacity-80 text-white"/>
+                    <FiArrowDown className="-mt-3 text-xl animate-bounce text-opacity-80 text-white" />
                 </div>
             </section>
 
