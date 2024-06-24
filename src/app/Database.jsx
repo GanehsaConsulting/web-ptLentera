@@ -191,7 +191,7 @@ export const DataContact = {
     gmaps: 'https://maps.app.goo.gl/4js3ZRiR3c8ZwgDk6',
     mapsLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.418140219187!2d106.76160587499027!3d-6.208449593779417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f725fb6f501d%3A0x4a41a24e31957c54!2sINFINITI%20OFFICE%20%7C%20Virtual%20Office%20Jakarta%20Barat!5e0!3m2!1sid!2sid!4v1718889507261!5m2!1sid!2sid",
     phone: "081298958958",
-    email: "lenteraberkatwisesa@gmail.com",
-    mailLink: "mailto:lenteraberkatwisesa@gmail.com?subject=Konsultasi%20PT%20Lentera%20Berkat%20Wisesa&body=Halo",
+    email: "info@lentera-berkat.com",
+    mailLink: "mailto:info@lentera-berkat.com?subject=Konsultasi%20PT%20Lentera%20Berkat%20Wisesa&body=Halo",
     waLink: "https://api.whatsapp.com/send?phone=6281298958958&text=Hello%20JMA%20Indonesia",
 }
