@@ -96,25 +96,88 @@ export const DataProducts = {
     points: [
         {
             id: 'item1',
-            img: 'https://images.unsplash.com/photo-1622534376374-fe4480328daa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/vgehd0hmpqzsacuqlomp',
             name: 'Valves',
-            exp: 'Various types of valves for different applications, designed for optimal performance and durability.'
+            exp: 'Various types of valves for different applications, designed for optimal performance and durability.',
+            child: [
+                {
+                    id: 1,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/ARI%20ARMATUREN/txgutdnavergkj8hzqbo',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/ARI%20ARMATUREN/xrx9kodjsgrxnzue7ebk'
+                    ],
+                    name: 'Ari Armaturen',
+                    descriptions: 'Precision-engineered and durable, ideal for controlling, isolating, and securing processes. Reliable performance meeting the highest industry standards.'
+                },
+                {
+                    id: 2,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/BONNEY%20FORGED/sihicgjykvr72ja4kzse',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/BONNEY%20FORGED/ejuaqhybfr0mv47cdl2f',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/BONNEY%20FORGED/d6zqfvhbhuctmj9fifqn',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/BONNEY%20FORGED/psyebbnqtg7q97vlui2p',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/BONNEY%20FORGED/ottjgjve8b8vksliyloc'
+                    ],
+                    name: 'Bonney Forged',
+                    descriptions: 'Known for strength and reliability, engineered for robust applications ensuring optimal performance and longevity.'
+                },
+                {
+                    id: 3,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/CONVAL/owxgxp1qid7zadpybm3w',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/CONVAL/zmirkkxe57r0z4fgmy5w',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/CONVAL/uvzfb1qy1gxqlxaclfo8'
+                    ],
+                    name: 'Conval',
+                    descriptions: 'Designed for critical applications with exceptional reliability and performance. Innovative designs and high-quality materials for superior service life.'
+                },
+                {
+                    id: 4,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/GEMU/kkz4ymiedkcnytieemca',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/GEMU/c35gr6npklqrpnsrnnw9',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/GEMU/rokc62kqj1pydnjqs2cf',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/GEMU/s3bdta8shypry4qd0w49'
+                    ],
+                    name: 'GEMU',
+                    descriptions: 'High-precision valves known for innovation and technological advancement. Exceptional control and automation solutions for various industries.'
+                },
+                {
+                    id: 5,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/KITZ/q9yfz0fuyoncby804myg',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/KITZ/ewkiuigm3mpelfiowcho',
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/KITZ/vgnsqqdwrivfxguaoga7'
+                    ],
+                    name: 'Kitz',
+                    descriptions: 'Globally recognized for quality and versatility, offering reliable flow control solutions for diverse industrial needs.'
+                },
+                {
+                    id: 6,
+                    imgUrl: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/VELAN/gmqasfhox9c9cta8nwbc',
+                    imgItems: [
+                        'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/VELAN/pi0ila5glypw4gx20omg'
+                    ],
+                    name: 'Velan',
+                    descriptions: 'Engineering excellence and dependability. Designed to withstand tough conditions, providing reliable and efficient performance across applications.'
+                }
+            ],
         },
         {
             id: 'item2',
-            img: 'https://images.unsplash.com/photo-1718712760956-3e527953827b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/iuyg2zlnkpiqujndam1q',
             name: 'Pipes',
             exp: 'High - quality pipes for diverse systems, ensuring flow integrity and efficiency.'
         },
         {
             id: 'item3',
-            img: 'https://images.unsplash.com/photo-1718703357938-33201b64c51b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/uksimxspcuznstidaods',
             name: 'Fittings',
             exp: 'Precision connecting components to ensure safe and reliable piping systems.'
         },
         {
             id: 'item4',
-            img: 'https://images.unsplash.com/photo-1718291643729-7d9691436eef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/whvynaqt9u6itdrfein2',
             name: 'Actuators',
             exp: 'Devices for automated valve operations, enhancing system control and efficiency.'
         }
