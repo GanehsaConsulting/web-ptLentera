@@ -96,7 +96,7 @@ export const DataProducts = {
     points: [
         {
             id: 'item1',
-            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/vgehd0hmpqzsacuqlomp',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/cdaxjb5wilhlelppfvc1',
             name: 'Valves',
             exp: 'Various types of valves for different applications, designed for optimal performance and durability.',
             child: [
@@ -171,7 +171,7 @@ export const DataProducts = {
         },
         {
             id: 'item3',
-            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/uksimxspcuznstidaods',
+            img: 'https://res.cloudinary.com/dzrh2ogbn/image/upload/f_auto,q_auto/v1/PT%20Lentera%20Asset/u3birugw0k8vn48gfyhi',
             name: 'Fittings',
             exp: 'Precision connecting components to ensure safe and reliable piping systems.'
         },
